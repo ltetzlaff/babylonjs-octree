@@ -1,6 +1,6 @@
 {
   "name": "babylonjs-octree",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Octree Data Structure for BabylonJS",
   "main": "dist/Octree",
   "types": "dist/Octree",
