@@ -1,0 +1,7 @@
+# Packages
+node_modules/
+
+# Compiled
+dist/*.js.map
+dist/*.js
+dist/*.d.ts

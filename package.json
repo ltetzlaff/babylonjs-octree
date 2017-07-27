@@ -1,0 +1,29 @@
+{
+  "name": "babylonjs-octree",
+  "version": "1.0.4",
+  "description": "Octree Data Structure for BabylonJS",
+  "main": "dist/Octree",
+  "types": "dist/Octree",
+  "scripts": {
+    "prepublish": "npm run buildOnce",
+    "build": "tsc --watch || true",
+    "buildOnce": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltetzlaff/babylonjs-octree.git"
+  },
+  "author": "github.com/ltetzlaff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ltetzlaff/babylonjs-octree/issues"
+  },
+  "homepage": "https://github.com/ltetzlaff/babylonjs-octree#readme",
+  "dependencies": {
+    "babylonjs": "^3.1.0-alpha1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.17",
+    "typescript": "^2.4.2"
+  }
+}
